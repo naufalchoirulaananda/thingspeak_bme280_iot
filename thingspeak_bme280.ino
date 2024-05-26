@@ -3,13 +3,13 @@
 #include <Adafruit_BME280.h>
 #include <Adafruit_Sensor.h>
 
-const char* ssid = "spontan.";
-const char* password = "uuuhhhuuuyyy";
+const char* ssid = "ssid";
+const char* password = "password";
 
 WiFiClient  client;
 
 unsigned long myChannelNumber = 1;
-const char * myWriteAPIKey = "8MDBYSO3CA5ENYC6";
+const char * myWriteAPIKey = "Thingspeak_API_Key";
 
 // Timer variables
 unsigned long lastTime = 0;
